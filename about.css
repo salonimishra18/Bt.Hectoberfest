@@ -1,0 +1,107 @@
+*,
+*::after,
+*::before{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+
+    border: 1px solid black;
+    background-color: aqua;
+
+    
+
+}
+.logo{ 
+    margin: 2px;
+    padding:5px;
+    color:red;
+    display:inline-block;
+    width:50%;
+    height:25px;
+    
+
+}
+.menu{
+    color:rgb(100, 100, 6);
+    display:inline-block;
+    width:49%;
+
+    
+}
+ul{ 
+    display:inline-block;
+    width:100%;
+    height: 25px;
+    list-style-type:none;
+}
+li{
+    width:32%;
+    height: 25px;
+    
+    display: inline-block;
+}
+img{
+    width:100%;
+    height: 700px;
+}
+
+.about{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    justify-content: space-between;
+}
+h1{
+    margin-top: 100px;
+    font-size: 60px;
+}
+.card{
+
+    
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    
+    border: 1px solid black;
+    width: 25%;
+    height: 450px;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 50px;
+    background-image: url(https://btirt.ac.in/wp-content/uploads/2020/06/santosh-jain-photo.png);
+    background-repeat: no-repeat;
+    box-shadow: 5px 10px;
+}
+.box2{
+     
+    border: 1px solid black;
+    width: 25%;
+    height: 450px;
+    display: inline-block;
+    margin-top: 80px;
+    background-image:  url(https://btirt.ac.in/wp-content/uploads/2020/06/satyendra-jain-photo.png);
+    background-repeat: no-repeat;
+    background-position: 15px;
+    box-shadow: 5px 10px;
+
+}
+.box3{
+   border: 1px solid black;
+    width: 25%;
+    height: 450px;
+    display: inline-block;
+    margin-top: 80px;
+    margin-right: 50px;
+    background-image: url();
+    box-shadow: 5px 10px;
+
+    
+    
+    
+
+
+}
